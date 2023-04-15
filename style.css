@@ -1,0 +1,90 @@
+nav{
+    background-color:#303030;
+    
+    margin: -10px;
+}
+
+.navegador{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.navegador p{
+    color:#FFFFFF;
+    font-size: 28pt;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.navegador img{
+    margin-top: -10px;
+    width: 180px;
+}
+
+section{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 40px;
+}
+
+.div1{
+    width: 550px;
+}
+
+.div1 p{
+    font-family: Verdana;
+    font-size: 36px;
+    
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #265E70;
+}
+
+.div2{
+    display: grid;
+    justify-content: center ;
+}
+
+.div2 p{
+    font-family: Verdana;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #265E70;
+}
+
+.div2 span{
+    color: #4DBCE9;
+}
+
+
+input{
+    background: #4DBCE9;
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    padding: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    margin-top: 40px;
+    margin-left: 200px;
+    
+}
+
+#subDiv2{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+#subDiv2 .arrows{
+    padding: 15px;
+}
+
